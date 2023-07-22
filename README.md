@@ -1,3 +1,22 @@
 # Issue Tracker
 
-This is the boilerplate for the Issue Tracker project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/issue-tracker
+Это учебный проект для получения сертификата на https://www.freecodecamp.org.
+
+Это приложения для отслеживания проблем в проектах.
+
+## Мои задачи в этом проекте:
+	- написание цикла CRUD для маршрута '/api/issues/:project' в ./routes/api.js
+	- написание функциональных тестов.
+
+Я подключил базу данных в MongoDB, для удобного хранения и получения проблем проектов, в модуле ./db.js.
+Так же мною были описаны модели проектов и проблем для хранения в базе данных ./models.
+
+### В проекте используется пакеты:
+	express
+	mongoose
+	mocha
+	chai
+
+## Лицензия
+
+MIT
